@@ -4,8 +4,17 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 写点真东西">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="面试-滴滴后台开发, 写点真东西">
+    <meta name="description" content="
+
+题目数据结构
+hash， 扩容，查找key；空间不连续怎么办；装填因子；解决冲突
+自己怎么实现map，map底层。c++map和golang map区别。
+排序算法，快排
+map set的区别，底层实现
+
+网络服务器
+负载均衡算法，re">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +22,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | 写点真东西</title>
+    <title>面试-滴滴后台开发 | 写点真东西</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -277,13 +286,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        面试-滴滴后台开发
                     </div>
                 </div>
             </div>
@@ -394,8 +403,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hello-world/" target="_blank">
-                                <span class="chip bg-color">hello world</span>
+                            <a href="/tags/后台开发/" target="_blank">
+                                <span class="chip bg-color">后台开发</span>
                             </a>
                         
                     </div>
@@ -406,8 +415,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/开始/" class="post-category" target="_blank">
-                                开始
+                            <a href="/categories/面试/" class="post-category" target="_blank">
+                                面试
                             </a>
                         
                     </div>
@@ -418,14 +427,14 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-07-18
+                    2019-06-16
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        73
+                        194
                     </div>
                     
 
@@ -448,17 +457,34 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+                <p><img src="/mian-shi-di-di-hou-tai-kai-fa/img2.jpg" alt="后台开发面试"></p>
 <a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><h4 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h4><ol>
+<li>hash， 扩容，查找key；空间不连续怎么办；装填因子；解决冲突</li>
+<li>自己怎么实现map，map底层。c++map和golang map区别。</li>
+<li>排序算法，快排</li>
+<li>map set的区别，底层实现</li>
+</ol>
+<h4 id="网络服务器"><a href="#网络服务器" class="headerlink" title="网络服务器"></a>网络服务器</h4><ol>
+<li>负载均衡算法，requset很多，服务器宕机怎么办</li>
+<li>请求协议http，tcp拥塞控制，握手挥手。http请求过程</li>
+<li>http code含义200 404 500之类的</li>
+</ol>
+<h4 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h4><ol>
+<li>数据库存储结构。mysql，mongodb，redshift，索引</li>
+<li>缓冲队列，cache，redis，</li>
+</ol>
+<h4 id="c"><a href="#c" class="headerlink" title="c++"></a>c++</h4><ol>
+<li>继承class成员函数访问权限(private, public, protected)</li>
+<li>虚继承内存分配和释放</li>
+</ol>
+<h4 id="linux-amp-git"><a href="#linux-amp-git" class="headerlink" title="linux &amp; git"></a>linux &amp; git</h4><ol>
+<li>linux，查找日志文件某种属性有多少行，awk命令</li>
+<li>git指令</li>
+</ol>
+<h4 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h4><ol>
+<li>top-k元素，元素重复咋办（位运算）</li>
+</ol>
 
             </div>
             <hr/>
@@ -621,7 +647,7 @@
         repo: '',
         owner: '',
         admin: ["chierqj"],
-        id: '2018-07-18T21-00-00',
+        id: '2019-06-16T14-50-58',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -646,35 +672,48 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/bo-ke-qian-yi/">
+                <a href="/zi-jie-tiao-dong-hou-tai-shi-xi-sheng-mian-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="博客迁移">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="字节跳动-后台实习生面试">
                         
-                        <span class="card-title">博客迁移</span>
+                        <span class="card-title">字节跳动-后台实习生面试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            原来博客记录了一些ACM算法题目结题报告，以后多写写工程
-
-原博客链接  http://www.cnblogs.com/Jstyle-continue/
+                            
 
 
+一面算法
+十进制转5禁止
+括号匹配，打印所有的。dfs or 枚举+栈
+杨辉三角求最大，滚动数组，
+
+专业知识
+tcp连接断开
+
+mysql引擎 InnoDB
+
+InnoDB隔离级别
+
+写一个sql语句体现锁的
+
+http code状
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-19
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/算法/" class="post-category" target="_blank">
-                                    算法
+                            <a href="/categories/面试/" class="post-category" target="_blank">
+                                    面试
                                 </a>
                             
                             
@@ -684,16 +723,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
+                    <a href="/tags/面试/" target="_blank">
+                        <span class="chip bg-color">面试</span>
                     </a>
                     
-                    <a href="/tags/ACM/" target="_blank">
-                        <span class="chip bg-color">ACM</span>
-                    </a>
-                    
-                    <a href="/tags/数据结构/" target="_blank">
-                        <span class="chip bg-color">数据结构</span>
+                    <a href="/tags/后台开发/" target="_blank">
+                        <span class="chip bg-color">后台开发</span>
                     </a>
                     
                 </div>
@@ -704,46 +739,64 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/hello-world/">
+                <a href="/codecraft-2019/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="CodeCraft-2019">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">CodeCraft-2019</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            
+
+华为软件精英挑战赛2019
+代码链接(https://github.com/chierqj/CodeCraft-2019)
+
+赛区：西北赛区
+队名：赐我一个天命圈
+名次：初赛（6），复赛（4），决赛32强
+
+
+
+前前后大概经历了好几个版
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-18
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-05
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/开始/" class="post-category" target="_blank">
-                                    开始
+                            <a href="/categories/竞赛/" class="post-category" target="_blank">
+                                    竞赛
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hello-world/" target="_blank">
-                        <span class="chip bg-color">hello world</span>
+                    <a href="/tags/c/" target="_blank">
+                        <span class="chip bg-color">c++</span>
+                    </a>
+                    
+                    <a href="/tags/竞赛/" target="_blank">
+                        <span class="chip bg-color">竞赛</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>

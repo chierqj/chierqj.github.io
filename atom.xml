@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chierqj.github.io/"/>
-  <updated>2019-07-02T06:55:00.470Z</updated>
+  <updated>2019-07-02T08:51:57.305Z</updated>
   <id>https://chierqj.github.io/</id>
   
   <author>
@@ -17,24 +17,92 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://chierqj.github.io/hello-world/"/>
-    <id>https://chierqj.github.io/hello-world/</id>
-    <published>2019-07-02T06:55:00.470Z</published>
-    <updated>2019-07-02T06:55:00.470Z</updated>
+    <title>字节跳动-后台实习生面试</title>
+    <link href="https://chierqj.github.io/zi-jie-tiao-dong-hou-tai-shi-xi-sheng-mian-shi/"/>
+    <id>https://chierqj.github.io/zi-jie-tiao-dong-hou-tai-shi-xi-sheng-mian-shi/</id>
+    <published>2019-07-01T13:01:12.000Z</published>
+    <updated>2019-07-02T08:51:57.305Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;&lt;img src=&quot;/zi-jie-tiao-dong-hou-tai-shi-xi-sheng-mian-shi/img1.jpg&quot; alt=&quot;字节跳动-后台实习生面试&quot;&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="面试" scheme="https://chierqj.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="https://chierqj.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="后台开发" scheme="https://chierqj.github.io/tags/%E5%90%8E%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试-滴滴后台开发</title>
+    <link href="https://chierqj.github.io/mian-shi-di-di-hou-tai-kai-fa/"/>
+    <id>https://chierqj.github.io/mian-shi-di-di-hou-tai-kai-fa/</id>
+    <published>2019-06-16T06:50:58.000Z</published>
+    <updated>2019-07-02T08:40:22.175Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/mian-shi-di-di-hou-tai-kai-fa/img2.jpg&quot; alt=&quot;后台开发面试&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="https://chierqj.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="后台开发" scheme="https://chierqj.github.io/tags/%E5%90%8E%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeCraft-2019</title>
+    <link href="https://chierqj.github.io/codecraft-2019/"/>
+    <id>https://chierqj.github.io/codecraft-2019/</id>
+    <published>2019-05-05T01:23:23.000Z</published>
+    <updated>2019-07-02T08:39:03.814Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/codecraft-2019/img1.jpeg&quot; alt=&quot;CodeCraft-2019&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="竞赛" scheme="https://chierqj.github.io/categories/%E7%AB%9E%E8%B5%9B/"/>
+    
+    
+      <category term="c++" scheme="https://chierqj.github.io/tags/c/"/>
+    
+      <category term="竞赛" scheme="https://chierqj.github.io/tags/%E7%AB%9E%E8%B5%9B/"/>
+    
+      <category term="算法" scheme="https://chierqj.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang多进程并发</title>
+    <link href="https://chierqj.github.io/golang-duo-jin-cheng-bing-fa/"/>
+    <id>https://chierqj.github.io/golang-duo-jin-cheng-bing-fa/</id>
+    <published>2019-01-20T16:32:00.000Z</published>
+    <updated>2019-01-20T16:42:14.189Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;以前听说什么golang一把梭什么的很厉害，到现在位置也接触golang半个多月时间了，最主要的时间都是在看document，学习语法。golang什么的变量名大小写区分公有私有神马的太坑爹了。。。最近接触到了golang最为称赞的第一个地方：&lt;strong&gt;goroutine&lt;/strong&gt;。本篇博客先介绍操作系统中的一些基本语法，然后介绍一下goroutine的美妙之处。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="golang" scheme="https://chierqj.github.io/categories/golang/"/>
+    
+    
+      <category term="golang" scheme="https://chierqj.github.io/tags/golang/"/>
+    
+      <category term="进程" scheme="https://chierqj.github.io/tags/%E8%BF%9B%E7%A8%8B/"/>
+    
+      <category term="并发" scheme="https://chierqj.github.io/tags/%E5%B9%B6%E5%8F%91/"/>
     
   </entry>
   
@@ -43,7 +111,7 @@
     <link href="https://chierqj.github.io/hwm-zai-xian-fen-pei-suan-fa/"/>
     <id>https://chierqj.github.io/hwm-zai-xian-fen-pei-suan-fa/</id>
     <published>2019-01-20T16:20:00.000Z</published>
-    <updated>2019-07-02T07:47:13.814Z</updated>
+    <updated>2019-07-02T08:40:36.647Z</updated>
     
     <summary type="html">
     
@@ -54,9 +122,81 @@
       <category term="算法" scheme="https://chierqj.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="-算法 -优化" scheme="https://chierqj.github.io/tags/%E7%AE%97%E6%B3%95-%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>广告系统</title>
+    <link href="https://chierqj.github.io/guang-gao-xi-tong/"/>
+    <id>https://chierqj.github.io/guang-gao-xi-tong/</id>
+    <published>2018-07-19T15:44:00.000Z</published>
+    <updated>2018-07-28T14:09:08.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;广告系统往往比其它互联网系统更具商业价值，广告技术赋能商业让投放更智能。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="工程" scheme="https://chierqj.github.io/categories/%E5%B7%A5%E7%A8%8B/"/>
+    
+    
       <category term="算法" scheme="https://chierqj.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="优化" scheme="https://chierqj.github.io/tags/%E4%BC%98%E5%8C%96/"/>
+      <category term="广告系统" scheme="https://chierqj.github.io/tags/%E5%B9%BF%E5%91%8A%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客迁移</title>
+    <link href="https://chierqj.github.io/bo-ke-qian-yi/"/>
+    <id>https://chierqj.github.io/bo-ke-qian-yi/</id>
+    <published>2018-07-19T15:03:06.000Z</published>
+    <updated>2018-07-28T14:09:08.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;原来博客记录了一些ACM算法题目结题报告，以后多写写工程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原博客链接  &lt;a href=&quot;http://www.cnblogs.com/Jstyle-continue/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="算法" scheme="https://chierqj.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="算法" scheme="https://chierqj.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="ACM" scheme="https://chierqj.github.io/tags/ACM/"/>
+    
+      <category term="数据结构" scheme="https://chierqj.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://chierqj.github.io/hello-world/"/>
+    <id>https://chierqj.github.io/hello-world/</id>
+    <published>2018-07-18T13:00:00.000Z</published>
+    <updated>2018-07-28T16:10:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开始" scheme="https://chierqj.github.io/categories/%E5%BC%80%E5%A7%8B/"/>
+    
+    
+      <category term="hello world" scheme="https://chierqj.github.io/tags/hello-world/"/>
     
   </entry>
   

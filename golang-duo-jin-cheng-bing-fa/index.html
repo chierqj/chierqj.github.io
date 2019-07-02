@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 写点真东西">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="golang多进程并发, 写点真东西">
+    <meta name="description" content="前言以前听说什么golang一把梭什么的很厉害，到现在位置也接触golang半个多月时间了，最主要的时间都是在看document，学习语法。golang什么的变量名大小写区分公有私有神马的太坑爹了。。。最近接触到了golang最为称赞的第一">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | 写点真东西</title>
+    <title>golang多进程并发 | 写点真东西</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -277,13 +277,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        golang多进程并发
                     </div>
                 </div>
             </div>
@@ -394,8 +394,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hello-world/" target="_blank">
-                                <span class="chip bg-color">hello world</span>
+                            <a href="/tags/golang/" target="_blank">
+                                <span class="chip bg-color">golang</span>
+                            </a>
+                        
+                            <a href="/tags/进程/" target="_blank">
+                                <span class="chip bg-color">进程</span>
+                            </a>
+                        
+                            <a href="/tags/并发/" target="_blank">
+                                <span class="chip bg-color">并发</span>
                             </a>
                         
                     </div>
@@ -406,8 +414,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/开始/" class="post-category" target="_blank">
-                                开始
+                            <a href="/categories/golang/" class="post-category" target="_blank">
+                                golang
                             </a>
                         
                     </div>
@@ -418,21 +426,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-07-18
+                    2019-01-21
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        73
+                        1.3k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        4 分
                     </div>
                     
                 
@@ -448,17 +456,96 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>以前听说什么golang一把梭什么的很厉害，到现在位置也接触golang半个多月时间了，最主要的时间都是在看document，学习语法。golang什么的变量名大小写区分公有私有神马的太坑爹了。。。最近接触到了golang最为称赞的第一个地方：<strong>goroutine</strong>。本篇博客先介绍操作系统中的一些基本语法，然后介绍一下goroutine的美妙之处。</p>
 <a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+<h3 id="【线程，-进程】；-【多进程，多线程】；-【并发，并行】"><a href="#【线程，-进程】；-【多进程，多线程】；-【并发，并行】" class="headerlink" title="【线程， 进程】； 【多进程，多线程】； 【并发，并行】"></a>【线程， 进程】； 【多进程，多线程】； 【并发，并行】</h3><h3 id="线程与进程"><a href="#线程与进程" class="headerlink" title="线程与进程"></a>线程与进程</h3><ol>
+<li>概念<ul>
+<li>线程：是程序执行流的最小单元，是系统独立调度和分配CPU（独立运行）的基本单位。</li>
+<li>进程：是资源分配的基本单位。一个进程包括多个线程</li>
+</ul>
+</li>
+<li>区别<ul>
+<li>线程与资源分配无关，它属于某一个进程，并与进程内的其他线程一起共享进程的资源。</li>
+<li>每个进程都有自己一套独立的资源（数据），供其内的所有线程共享。</li>
+<li>不论是大小，开销线程要更“轻量级”</li>
+<li>一个进程内的线程通信比进程之间的通信更快速，有效。（因为共享变量）</li>
+</ul>
+</li>
+</ol>
+<h3 id="多进程与多线程"><a href="#多进程与多线程" class="headerlink" title="多进程与多线程"></a>多进程与多线程</h3><p>多线程：同一时刻执行多个线程。用浏览器一边下载，一边听歌，一边看视频，一边看网页。。。</p>
+<p>多进程：同时执行多个程序。如，同事运行YY，QQ，以及各种浏览器。</p>
+<h3 id="并发与并行"><a href="#并发与并行" class="headerlink" title="并发与并行"></a>并发与并行</h3><p>并发当有多个线程在操作时,如果系统只有一个CPU,则它根本不可能真正同时进行一个以上的线程，它只能把CPU运行时间划分成若干个时间段,再将时间 段分配给各个线程执行，在一个时间段的线程代码运行时，其它线程处于挂起状。.这种方式我们称之为并发(Concurrent)。</p>
+<p>并行：当系统有一个以上CPU时,则线程的操作有可能非并发。当一个CPU执行一个线程时，另一个CPU可以执行另一个线程，两个线程互不抢占CPU资源，可以同时进行，这种方式我们称之为并行(Parallel)。</p>
+<p>举个例子：</p>
+<p>并发就是<strong>一个窗口</strong>多条队伍，多条队伍轮流使用资源。</p>
+<p>并行就是<strong>多个窗口</strong>，每个窗口一个队伍，队伍之间并行排队。</p>
+<p><img src="/golang-duo-jin-cheng-bing-fa/img.jpeg" alt="并发&amp;并行"></p>
+<h3 id="gotuntine"><a href="#gotuntine" class="headerlink" title="gotuntine"></a>gotuntine</h3><p>golang语言中，用<strong>go</strong>关键词就可以启动并发程序。</p>
+<p>我们先看一下下面这个简单的例子，在main函数中依次调用了两次loop函数。</p>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre>
+<p>毫无疑问上述代码的运行结果如下:</p>
+<p><code>0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9</code></p>
+<hr>
+<p>这个时候我们将main函数代码换成如下</p>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">go</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre>
+<p>此时loop函数只运行了一次；这是什么原因呢，原来是因为我们的main函数中的第二个<strong>loop()</strong>执行比较快</p>
+<p>在<strong>go loop()</strong>还没有执行的时候，main函数已经运行结束并且退出了。</p>
+<p><code>0 1 2 3 4 5 6 7 8 9</code></p>
+<p>我们可以使用<strong>time.Sleep</strong>设置延时来等待<strong>go loop()</strong>执行，这种做法可行，但是显然是不科学的，如果我的<strong>go loop()</strong>执行很快结束了，而main函数还在等待，这显然是一种资源上的浪费。</p>
+<p>那么如何解决的，我们可以用下面的<strong>信道</strong>来解决这个问题</p>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">go</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  time<span class="token punctuation">.</span><span class="token function">Sleep</span><span class="token punctuation">(</span>time<span class="token punctuation">.</span>Seoncd<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">//停顿一秒</span>
+<span class="token punctuation">}</span></code></pre>
+<hr>
+<h3 id="信道"><a href="#信道" class="headerlink" title="信道"></a>信道</h3><p>信道是什么？简单的来说就是goruntine之间相互通讯的东西。类似Linux中的管道，用来在多个进程之间共享资源。</p>
+<p>先看一下例子</p>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> chanel <span class="token keyword">chan</span> <span class="token builtin">int</span> <span class="token operator">=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">chan</span> <span class="token builtin">int</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true">// 定义信道类型变量 chanel</span>
+  <span class="token keyword">go</span> <span class="token keyword">func</span><span class="token punctuation">(</span>msg <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    chanel <span class="token operator">&lt;-</span> msg        <span class="token comment" spellcheck="true">// 存消息 chan &lt;- msg</span>
+  <span class="token punctuation">}</span><span class="token punctuation">(</span><span class="token string">"Ping"</span><span class="token punctuation">)</span>
+  msgStr <span class="token operator">:=</span> <span class="token operator">&lt;-</span>chanel    <span class="token comment" spellcheck="true">// 取消息 msg &lt;- chan</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>msgStr<span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre>
+<p>在上述代码中，我们通过定义<strong>chanel</strong>变量完成了进程间的消息通讯。</p>
+<p>通过存消息和取消息两种方法完成进程间的消息通讯。</p>
+<hr>
+<p>通过这种方式我们可以控制进程的结束时间</p>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">var</span> quit <span class="token keyword">chan</span> <span class="token builtin">int</span> <span class="token operator">=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">chan</span> <span class="token builtin">int</span><span class="token punctuation">)</span>
+<span class="token keyword">func</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  quit <span class="token operator">&lt;-</span> <span class="token number">0</span>        <span class="token comment" spellcheck="true">// 进程执行结束，存入消息</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">go</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token operator">&lt;-</span> quit        <span class="token comment" spellcheck="true">// 取消息，进程结束</span>
+<span class="token punctuation">}</span></code></pre>
+<p>我们通过<strong>quit</strong>来控制<strong>loop()</strong>的结束时间点，当quit没有取到消息的时候，进程就会阻塞，<strong>main</strong>函数也就无法继续执行。</p>
+<p>如果不用信道来阻塞主线的话，主线就会过早跑完，loop线都没有机会执行、、、</p>
+<p>其实，无缓冲的信道永远不会存储数据，只负责数据的流通，为什么这么讲呢？</p>
+<ul>
+<li>从无缓冲信道取数据，必须要有数据流进来才可以，否则当前线阻塞</li>
+<li>数据流入无缓冲信道, 如果没有其他goroutine来拿走这个数据，那么当前线阻塞</li>
+</ul>
+<p>简单来说就是<strong>必须有消息流入，并且有消息流出，缺一不可，不然会造成死锁</strong></p>
+<h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>下一篇博客将会介绍一下<strong>死锁</strong>以及<strong>等待多goruntine</strong>的方案</p>
 
             </div>
             <hr/>
@@ -621,7 +708,7 @@
         repo: '',
         owner: '',
         admin: ["chierqj"],
-        id: '2018-07-18T21-00-00',
+        id: '2019-01-21T00-32-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -646,29 +733,103 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/bo-ke-qian-yi/">
+                <a href="/codecraft-2019/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="博客迁移">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="CodeCraft-2019">
                         
-                        <span class="card-title">博客迁移</span>
+                        <span class="card-title">CodeCraft-2019</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            原来博客记录了一些ACM算法题目结题报告，以后多写写工程
+                            
 
-原博客链接  http://www.cnblogs.com/Jstyle-continue/
+华为软件精英挑战赛2019
+代码链接(https://github.com/chierqj/CodeCraft-2019)
+
+赛区：西北赛区
+队名：赐我一个天命圈
+名次：初赛（6），复赛（4），决赛32强
 
 
+
+前前后大概经历了好几个版
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-19
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-05
                         </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/竞赛/" class="post-category" target="_blank">
+                                    竞赛
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/c/" target="_blank">
+                        <span class="chip bg-color">c++</span>
+                    </a>
+                    
+                    <a href="/tags/竞赛/" target="_blank">
+                        <span class="chip bg-color">竞赛</span>
+                    </a>
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/hwm-zai-xian-fen-pei-suan-fa/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="HWM-在线分配算法">
+                        
+                        <span class="card-title">HWM-在线分配算法</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            前言最近在公司接触到的项目需要用到HWM算法，网上看了许多资料，简单说HWM是一种基于概率的贪婪式分配算法。算法介绍
+
+
+算法背景
+广告投放
+在线分配
+最大量分配
+
+Problem example某广告主有三份广告订单，定向分别为
+
+{北京
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -684,66 +845,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/算法/" target="_blank">
-                        <span class="chip bg-color">算法</span>
-                    </a>
-                    
-                    <a href="/tags/ACM/" target="_blank">
-                        <span class="chip bg-color">ACM</span>
-                    </a>
-                    
-                    <a href="/tags/数据结构/" target="_blank">
-                        <span class="chip bg-color">数据结构</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
-            </div>
-            <div class="card">
-                <a href="/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-18
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/开始/" class="post-category" target="_blank">
-                                    开始
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/hello-world/" target="_blank">
-                        <span class="chip bg-color">hello world</span>
+                    <a href="/tags/算法-优化/" target="_blank">
+                        <span class="chip bg-color">-算法 -优化</span>
                     </a>
                     
                 </div>
