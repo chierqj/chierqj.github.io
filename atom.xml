@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>写点真东西</title>
+  
+  <subtitle>赤耳</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://chierqj.github.io/"/>
+  <updated>2019-07-02T06:55:00.470Z</updated>
+  <id>https://chierqj.github.io/</id>
+  
+  <author>
+    <name>赤耳</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://chierqj.github.io/hello-world/"/>
+    <id>https://chierqj.github.io/hello-world/</id>
+    <published>2019-07-02T06:55:00.470Z</published>
+    <updated>2019-07-02T06:55:00.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HWM-在线分配算法</title>
+    <link href="https://chierqj.github.io/hwm-zai-xian-fen-pei-suan-fa/"/>
+    <id>https://chierqj.github.io/hwm-zai-xian-fen-pei-suan-fa/</id>
+    <published>2019-01-20T16:20:00.000Z</published>
+    <updated>2019-07-02T07:47:13.814Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;最近在公司接触到的项目需要用到HWM算法，网上看了许多资料，简单说HWM是一种基于概率的贪婪式分配算法。&lt;a href=&quot;http://www.flickering.cn/uncategorized/2015/04/%E4%BD%BF%E7%94%A8%E7%AE%80%E6%B4%81%E5%88%86%E9%85%8D%E6%96%B9%E6%A1%88%E7%9A%84%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;算法介绍&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="算法" scheme="https://chierqj.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="算法" scheme="https://chierqj.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="优化" scheme="https://chierqj.github.io/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+</feed>
